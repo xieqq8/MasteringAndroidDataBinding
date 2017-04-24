@@ -75,6 +75,16 @@
                 android:textStyle="italic"
                 android:visibility="@{user.isAdult ? View.VISIBLE : View.GONE}" />
         </TableRow>
+
+        <TableRow>
+            <Button
+                android:id="@+id/btn_set"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:text="Display Name: " />
+        </TableRow>
+
     </TableLayout>
 </layout>
 

@@ -15,6 +15,7 @@ buildscript {
 allprojects {
     repositories {
         jcenter()
+        maven { url "https://jitpack.io" } // cymChad/BaseRecyclerViewAdapterHelper搜这个可以得到版本号
     }
 }
 

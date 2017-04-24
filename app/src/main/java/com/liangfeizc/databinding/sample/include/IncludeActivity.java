@@ -37,7 +37,7 @@ public class IncludeActivity extends BaseActivity implements OkListener {
             public void onTextChanged(CharSequence s, int start, int before, int count) {
                 User user = new User(s.toString(), "Liang");
 
-                binding.setUser(user);
+                binding.setUser(user); // set是肯定会变的
             }
 
             @Override
